@@ -1,10 +1,9 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+title: 프론트엔드 개발자 블로그
+author: lhg99
+email: lee991229@naver.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  안녕하세요. 26살 프론트엔드 개발자로 취업 준비중인 이현기의 블로그 입니다.
+  꾸준히 코딩하여 공부하고 도움을 주는 개발자로 성장하고 싶습니다.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,13 +11,13 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: HYUNGI LEE
+  tagline: Developer.
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
-  portfolio_image: "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
+  portfolio_image: "assets/me.jpeg" # the path from the base directory of the site to the image to display (no / at the start)
   html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
   condensed_mobile:
     #- home
@@ -26,12 +25,12 @@ plainwhite:
     - post
   # generate social links in footer
   social_links:
-    twitter: samarsault
-    github:  samarsault
-    linkedIn: in/samarsault
+    #twitter: lhg99
+    github:  lhg99
+    linkedIn: in/lhg99
     #dribbble: jekyll
     #flickr:   jekyll
-    #instagram: jekyll
+    instagram: lhg991229
     #pinterest: jekyll
     #youtube: jekyll
     #facebook: jekyll
@@ -53,6 +52,7 @@ plainwhite:
 # - about.md
 
 # Build settings
+remote_theme: samarsault/plainwhite-jekyll
 theme: plainwhite
 
 plugins:
